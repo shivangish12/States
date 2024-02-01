@@ -92,6 +92,14 @@ function App() {
           ))}
         </select>
       </div>
+      {selectedCity && (
+        <h2 classname="result">
+          You selected{" "}
+          <span>
+            {selectedCity},{selectedState},{selectedCountry}
+          </span>
+        </h2>
+      )}
     </div>
   );
 }
