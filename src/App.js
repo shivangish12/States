@@ -94,9 +94,10 @@ function App() {
       </div>
       {selectedCity && (
         <h2 classname="result">
-          You selected{" "}
-          <span>
-            {selectedCity},{selectedState},{selectedCountry}
+          You selected <span classnName="highlight">{selectedCity},</span>
+          <span className="fade">
+            {" "}
+            {selectedState},{selectedCountry}{" "}
           </span>
         </h2>
       )}
