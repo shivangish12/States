@@ -97,7 +97,7 @@ function App() {
           You selected <span classnName="highlight">{selectedCity},</span>
           <span className="fade">
             {" "}
-            {selectedState},{selectedCountry}{" "}
+            {selectedState}, {selectedCountry}
           </span>
         </h2>
       )}
